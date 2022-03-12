@@ -51,7 +51,7 @@ box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
 
 .inhalt {
     padding: 0;
-    margin-top: 15vh;
+    margin-top: 20vh;
     display: grid;
     gap: 1rem;
     grid-template-rows: 1fr;

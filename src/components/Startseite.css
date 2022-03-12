@@ -19,5 +19,7 @@ box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
 @media only screen and (max-width: 600px) {
     .startseite {
         padding-top: 15vh;
+        width: 100vw;
+        margin-left: 0;
     }
 }

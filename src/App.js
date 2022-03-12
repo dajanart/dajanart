@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useState } from "react";
 import Startseite from "./components/Startseite";
 import Gallerie from "./components/Gallerie";
 import Kontakt from "./components/Kontakt";
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <Header className="header" />
-      <main>
+      <div>
         <Switch>
           <Route path="/" exact>
             <Redirect to="/startseite" />
@@ -24,7 +25,7 @@ function App() {
             <Kontakt />
           </Route>
         </Switch>
-      </main>
+      </div>
       {/* <Footer /> */}
     </>
   );
