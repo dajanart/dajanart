@@ -1,0 +1,17 @@
+.startseite {
+    width: 62vw;
+    margin-left: 19vw;
+    padding-top: 9vh;
+    font-family: Ink Free;
+    color: #29526e;
+    height: 100vh;
+    -webkit-box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
+-moz-box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
+box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
+}
+
+.mytext {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5%;
+}

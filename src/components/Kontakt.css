@@ -1,0 +1,22 @@
+.container {
+    font-family: Ink Free;
+    color: #1b3d53;
+    padding: 8%;
+    -webkit-box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
+-moz-box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
+box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
+}
+
+.border {
+    background-color: #f7eeef;
+}
+
+.dbtn {
+    border-radius: .3rem;
+    border-color: pink !important;
+}
+
+.dbtn:hover {
+    color: #fff;
+    background-color: pink;
+}

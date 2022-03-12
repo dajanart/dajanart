@@ -1,0 +1,47 @@
+
+.header {
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+.logo {
+    height: 7vh;
+    margin-top: 1vh;
+    border-radius: 50%;
+}
+
+.links {
+    background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040);
+}
+
+.mitte {
+    background-image: linear-gradient(to right bottom, #f68989, #f07877, #e96665, #e15452, #d84040);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.rechts {
+    background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040);
+}
+
+
+.navigation {
+    font-size: 1.5rem;
+  font-family: Ink Free;
+  font-weight: bold;
+  /* font-family: Comic Sans MS; */
+  margin-right: 1rem;
+  color: #29526e;
+  text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:active,
+.navigation.active {
+    text-decoration: none;
+  border-bottom: 4px solid #ebd797;
+}
+
