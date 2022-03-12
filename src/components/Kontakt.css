@@ -20,3 +20,10 @@ box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
     color: #fff;
     background-color: pink;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 15vh;
+    }
+}
+

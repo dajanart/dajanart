@@ -8,7 +8,7 @@ const Kontakt = () => {
         Nutzen Sie einfach das Formular und lassen Sie uns über alles reden.
       </h3>
       <div className="container">
-        <h3>Gerne auch telefonisch unter der +49176xxxxxxxxx</h3>
+        <h3>Gerne auch telefonisch unter der +4917634544090</h3>
         <form
           target="_blank"
           action="https://formsubmit.co/84eea5f9a05ad0a1d9f5cc68e34f08e8"

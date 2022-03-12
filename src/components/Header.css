@@ -30,8 +30,8 @@
 
 .navigation {
     font-size: 1.5rem;
-  font-family: Ink Free;
-  font-weight: bold;
+  font-family: Comic Sans MS;
+  /* font-weight: bold; */
   /* font-family: Comic Sans MS; */
   margin-right: 1rem;
   color: #29526e;
@@ -45,3 +45,11 @@
   border-bottom: 4px solid #ebd797;
 }
 
+@media only screen and (max-width: 600px) {
+    .mitte {
+        grid-template-columns: 1fr;
+    }
+    .links img {
+        visibility: hidden;
+    }
+}

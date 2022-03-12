@@ -19,17 +19,17 @@ const Gallerie = (props) => {
     {
       titel: "deep Wisdom",
       src: img1,
-      comments: "2.000 €",
+      comments: "1.000 €",
     },
     {
       titel: "Exhale",
       src: img2,
-      comments: "das allerschönste",
+      comments: "1.000 €",
     },
     {
       titel: "First Forward",
       src: img3,
-      comments: "erst",
+      comments: "1.000 €",
     },
     {
       titel: "GoingOn",
@@ -44,12 +44,12 @@ const Gallerie = (props) => {
     {
       titel: "Panther",
       src: img13,
-      comments: "5.000 €",
+      comments: "500 €",
     },
     {
       titel: "Medusa",
       src: img7,
-      comments: "unverkäuflich",
+      comments: "verkauft",
     },
     {
       titel: "Mother",
@@ -59,12 +59,12 @@ const Gallerie = (props) => {
     {
       titel: "Pusteblume",
       src: img9,
-      comments: "800 €",
+      comments: "300 €",
     },
     {
       titel: "Sonnenhitze",
       src: img10,
-      comments: "990 €",
+      comments: "300 €",
     },
     {
       titel: "Treppe",
