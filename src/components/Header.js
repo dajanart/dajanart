@@ -7,7 +7,7 @@ const Header = () => {
   const REITER = [
     {
       titel: "Startseite",
-      pfad: "/startseite",
+      pfad: "/dajanart",
     },
     {
       titel: "Gallerie",
