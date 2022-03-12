@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/dajanart/static/css/main.a158fbed.css",
-    "main.js": "/dajanart/static/js/main.9e94d0b4.js",
-    "static/media/deepWisdom.jpg": "/dajanart/static/media/deepWisdom.bbb84752b94c90a4c9ab.jpg",
-    "static/media/Medusa.jpg": "/dajanart/static/media/Medusa.001c82f30e130aac50f3.jpg",
-    "static/media/Treppe.jpg": "/dajanart/static/media/Treppe.eed271ab3527f3d5d331.jpg",
-    "static/media/Logo.jpg": "/dajanart/static/media/Logo.0242dbd7c85cce082f06.jpg",
-    "static/media/exhale.jpg": "/dajanart/static/media/exhale.ff6352c38f67e0b80b04.jpg",
-    "static/media/goldenLady.jpg": "/dajanart/static/media/goldenLady.e655df3bbf313efabfa8.jpg",
-    "static/media/Hannah.jpg": "/dajanart/static/media/Hannah.39e1d775d350e031dfa1.jpg",
-    "static/media/firstForward.jpg": "/dajanart/static/media/firstForward.763922640054b7d71987.jpg",
-    "static/media/Pusteblume.jpg": "/dajanart/static/media/Pusteblume.4bbf5dd79fb5c4a2411b.jpg",
-    "static/media/goingOn.jpg": "/dajanart/static/media/goingOn.f7d5b5125665a0fbba1a.jpg",
-    "static/media/Zoe.jpg": "/dajanart/static/media/Zoe.2858e382f507299a16c3.jpg",
-    "static/media/Sonnenhitze.jpg": "/dajanart/static/media/Sonnenhitze.e8f07326f7d5da9b3080.jpg",
-    "static/media/motherNature.jpg": "/dajanart/static/media/motherNature.a8be09c1019119f2aa97.jpg",
-    "static/media/Panther.jpg": "/dajanart/static/media/Panther.d854392968e5bed37e65.jpg",
-    "index.html": "/dajanart/index.html",
-    "main.a158fbed.css.map": "/dajanart/static/css/main.a158fbed.css.map",
-    "main.9e94d0b4.js.map": "/dajanart/static/js/main.9e94d0b4.js.map"
+    "main.css": "/gallerie/static/css/main.3cd58d64.css",
+    "main.js": "/gallerie/static/js/main.50ef9873.js",
+    "static/media/deepWisdom.jpg": "/gallerie/static/media/deepWisdom.bbb84752b94c90a4c9ab.jpg",
+    "static/media/Medusa.jpg": "/gallerie/static/media/Medusa.001c82f30e130aac50f3.jpg",
+    "static/media/Treppe.jpg": "/gallerie/static/media/Treppe.eed271ab3527f3d5d331.jpg",
+    "static/media/Logo.jpg": "/gallerie/static/media/Logo.0242dbd7c85cce082f06.jpg",
+    "static/media/exhale.jpg": "/gallerie/static/media/exhale.ff6352c38f67e0b80b04.jpg",
+    "static/media/goldenLady.jpg": "/gallerie/static/media/goldenLady.e655df3bbf313efabfa8.jpg",
+    "static/media/Hannah.jpg": "/gallerie/static/media/Hannah.39e1d775d350e031dfa1.jpg",
+    "static/media/firstForward.jpg": "/gallerie/static/media/firstForward.763922640054b7d71987.jpg",
+    "static/media/Pusteblume.jpg": "/gallerie/static/media/Pusteblume.4bbf5dd79fb5c4a2411b.jpg",
+    "static/media/goingOn.jpg": "/gallerie/static/media/goingOn.f7d5b5125665a0fbba1a.jpg",
+    "static/media/Zoe.jpg": "/gallerie/static/media/Zoe.2858e382f507299a16c3.jpg",
+    "static/media/Sonnenhitze.jpg": "/gallerie/static/media/Sonnenhitze.e8f07326f7d5da9b3080.jpg",
+    "static/media/motherNature.jpg": "/gallerie/static/media/motherNature.a8be09c1019119f2aa97.jpg",
+    "static/media/Panther.jpg": "/gallerie/static/media/Panther.d854392968e5bed37e65.jpg",
+    "index.html": "/gallerie/index.html",
+    "main.3cd58d64.css.map": "/gallerie/static/css/main.3cd58d64.css.map",
+    "main.50ef9873.js.map": "/gallerie/static/js/main.50ef9873.js.map"
   },
   "entrypoints": [
-    "static/css/main.a158fbed.css",
-    "static/js/main.9e94d0b4.js"
+    "static/css/main.3cd58d64.css",
+    "static/js/main.50ef9873.js"
   ]
 }
