@@ -13,7 +13,7 @@ const Startseite = () => {
           <br />
           <br />
           Gerne nehme ich Auftragsarbeiten an, ein Geburtstagsgeschenk, ein
-          Abschiedsgeschenk oder ein Geschenk für Ihre Kinder!
+          Abschiedsgeschenk oder ein Geschenk an Ihre Kinder!
           <br />
           Nutzen Sie einfach das Kontaktformular.
           <br />
