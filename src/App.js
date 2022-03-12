@@ -13,9 +13,9 @@ function App() {
       <div>
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/startseite" />
+            <Redirect to="/dajanart" />
           </Route>
-          <Route path="/startseite">
+          <Route path="/dajanart">
             <Startseite />
           </Route>
           <Route path="/gallerie">
