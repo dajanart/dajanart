@@ -1,20 +1,22 @@
-import img1 from "../gallerie/deepWisdom.jpg";
-import img2 from "../gallerie/exhale.jpg";
-import img3 from "../gallerie/firstForward.jpg";
-import img4 from "../gallerie/goingOn.jpg";
-import img5 from "../gallerie/goldenLady.jpg";
-import img6 from "../gallerie/Hannah.jpg";
-import img7 from "../gallerie/Medusa.jpg";
-import img8 from "../gallerie/motherNature.jpg";
-import img9 from "../gallerie/Pusteblume.jpg";
-import img10 from "../gallerie/Sonnenhitze.jpg";
-import img11 from "../gallerie/Treppe.jpg";
-import img12 from "../gallerie/Zoe.jpg";
-import img13 from "../gallerie/Panther.jpg";
+import img1 from "../galerie/deepWisdom.jpg";
+import img2 from "../galerie/exhale.jpg";
+import img3 from "../galerie/firstForward.jpg";
+import img4 from "../galerie/goingOn.jpg";
+import img5 from "../galerie/goldenLady.jpg";
+import img6 from "../galerie/Hannah.jpg";
+import img7 from "../galerie/Medusa.jpg";
+import img8 from "../galerie/motherNature.jpg";
+import img9 from "../galerie/Pusteblume.jpg";
+import img10 from "../galerie/Sonnenhitze.jpg";
+import img11 from "../galerie/Treppe.jpg";
+import img12 from "../galerie/Zoe.jpg";
+import img13 from "../galerie/Panther.jpg";
+import img14 from "../galerie/Berg.jpg";
+import img15 from "../galerie/Souls.jpg";
 
-import "./Gallerie.css";
+import "./Galerie.css";
 
-const Gallerie = (props) => {
+const Galerie = (props) => {
   const werke = [
     {
       titel: "deep Wisdom",
@@ -81,6 +83,16 @@ const Gallerie = (props) => {
       src: img12,
       comments: "unverkäuflich",
     },
+    {
+      titel: "Berg",
+      src: img14,
+      comments: "400 €",
+    },
+    {
+      titel: "Souls",
+      src: img15,
+      comments: "verkauft",
+    },
   ];
 
   return (
@@ -102,4 +114,4 @@ const Gallerie = (props) => {
   );
 };
 
-export default Gallerie;
+export default Galerie;

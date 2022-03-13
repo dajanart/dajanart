@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import Startseite from "./components/Startseite";
-import Gallerie from "./components/Gallerie";
+import Galerie from "./components/Galerie";
 import Kontakt from "./components/Kontakt";
 import Header from "./components/Header";
 import { Route, Switch, Redirect } from "react-router-dom";
@@ -18,8 +18,8 @@ function App() {
           <Route path="/dajanart">
             <Startseite />
           </Route>
-          <Route path="/gallerie">
-            <Gallerie />
+          <Route path="/galerie">
+            <Galerie />
           </Route>
           <Route path="/kontakt">
             <Kontakt />

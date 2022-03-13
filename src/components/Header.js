@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../gallerie/Logo.jpg";
+import logo from "../galerie/Logo.jpg";
 import "./Header.css";
 
 const Header = () => {
@@ -10,8 +10,8 @@ const Header = () => {
       pfad: "/dajanart",
     },
     {
-      titel: "Gallerie",
-      pfad: "/gallerie",
+      titel: "Galerie",
+      pfad: "/galerie",
     },
     {
       titel: "Kontakt",

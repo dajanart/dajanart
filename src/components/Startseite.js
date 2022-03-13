@@ -9,7 +9,7 @@ const Startseite = () => {
           Hallo,
           <br />
           <br />
-          in der Gallerie finden Sie meine persönlichen Lieblingsbilder.
+          in der Galerie finden Sie meine persönlichen Lieblingsbilder.
           <br />
           <br />
           Gerne nehme ich Auftragsarbeiten an, ein Geburtstagsgeschenk, ein
