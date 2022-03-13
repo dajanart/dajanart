@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dajanart/static/css/main.140f9bb7.css",
-    "main.js": "/dajanart/static/js/main.41df2e2e.js",
+    "main.js": "/dajanart/static/js/main.e0d04547.js",
     "static/media/deepWisdom.jpg": "/dajanart/static/media/deepWisdom.bbb84752b94c90a4c9ab.jpg",
     "static/media/Medusa.jpg": "/dajanart/static/media/Medusa.001c82f30e130aac50f3.jpg",
     "static/media/Treppe.jpg": "/dajanart/static/media/Treppe.eed271ab3527f3d5d331.jpg",
@@ -13,6 +13,7 @@
     "static/media/Pusteblume.jpg": "/dajanart/static/media/Pusteblume.4bbf5dd79fb5c4a2411b.jpg",
     "static/media/goingOn.jpg": "/dajanart/static/media/goingOn.f7d5b5125665a0fbba1a.jpg",
     "static/media/Zoe.jpg": "/dajanart/static/media/Zoe.2858e382f507299a16c3.jpg",
+    "static/media/Bee.jpg": "/dajanart/static/media/Bee.af2e2b3a5739e7a566f5.jpg",
     "static/media/Sonnenhitze.jpg": "/dajanart/static/media/Sonnenhitze.e8f07326f7d5da9b3080.jpg",
     "static/media/Berg.jpg": "/dajanart/static/media/Berg.dd651f36ccc108eb23ab.jpg",
     "static/media/motherNature.jpg": "/dajanart/static/media/motherNature.a8be09c1019119f2aa97.jpg",
@@ -20,10 +21,10 @@
     "static/media/Panther.jpg": "/dajanart/static/media/Panther.d854392968e5bed37e65.jpg",
     "index.html": "/dajanart/index.html",
     "main.140f9bb7.css.map": "/dajanart/static/css/main.140f9bb7.css.map",
-    "main.41df2e2e.js.map": "/dajanart/static/js/main.41df2e2e.js.map"
+    "main.e0d04547.js.map": "/dajanart/static/js/main.e0d04547.js.map"
   },
   "entrypoints": [
     "static/css/main.140f9bb7.css",
-    "static/js/main.41df2e2e.js"
+    "static/js/main.e0d04547.js"
   ]
 }
