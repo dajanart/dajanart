@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dajanart/static/css/main.3cd58d64.css",
-    "main.js": "/dajanart/static/js/main.e03000bd.js",
+    "main.css": "/dajanart/static/css/main.ddd708f2.css",
+    "main.js": "/dajanart/static/js/main.41df2e2e.js",
     "static/media/deepWisdom.jpg": "/dajanart/static/media/deepWisdom.bbb84752b94c90a4c9ab.jpg",
     "static/media/Medusa.jpg": "/dajanart/static/media/Medusa.001c82f30e130aac50f3.jpg",
     "static/media/Treppe.jpg": "/dajanart/static/media/Treppe.eed271ab3527f3d5d331.jpg",
@@ -14,14 +14,16 @@
     "static/media/goingOn.jpg": "/dajanart/static/media/goingOn.f7d5b5125665a0fbba1a.jpg",
     "static/media/Zoe.jpg": "/dajanart/static/media/Zoe.2858e382f507299a16c3.jpg",
     "static/media/Sonnenhitze.jpg": "/dajanart/static/media/Sonnenhitze.e8f07326f7d5da9b3080.jpg",
+    "static/media/Berg.jpg": "/dajanart/static/media/Berg.dd651f36ccc108eb23ab.jpg",
     "static/media/motherNature.jpg": "/dajanart/static/media/motherNature.a8be09c1019119f2aa97.jpg",
+    "static/media/Souls.jpg": "/dajanart/static/media/Souls.5ab70c90015a84468121.jpg",
     "static/media/Panther.jpg": "/dajanart/static/media/Panther.d854392968e5bed37e65.jpg",
     "index.html": "/dajanart/index.html",
-    "main.3cd58d64.css.map": "/dajanart/static/css/main.3cd58d64.css.map",
-    "main.e03000bd.js.map": "/dajanart/static/js/main.e03000bd.js.map"
+    "main.ddd708f2.css.map": "/dajanart/static/css/main.ddd708f2.css.map",
+    "main.41df2e2e.js.map": "/dajanart/static/js/main.41df2e2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cd58d64.css",
-    "static/js/main.e03000bd.js"
+    "static/css/main.ddd708f2.css",
+    "static/js/main.41df2e2e.js"
   ]
 }
