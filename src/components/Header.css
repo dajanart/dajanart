@@ -12,11 +12,14 @@
 }
 
 .links {
-    background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040);
+    /* background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040); */
+    background-color: #FFDDEE;
+
 }
 
 .mitte {
-    background-image: linear-gradient(to right bottom, #f68989, #f07877, #e96665, #e15452, #d84040);
+    /* background-image: linear-gradient(to right bottom, #f68989, #f07877, #e96665, #e15452, #d84040); */
+    background-color: #FFDDEE;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -24,7 +27,8 @@
 }
 
 .rechts {
-    background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040);
+    /* background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040); */
+    background-color: #FFDDEE;
 }
 
 
@@ -42,8 +46,12 @@
 .navigation:active,
 .navigation.active {
     text-decoration: none;
-  border-bottom: 4px solid #ebd797;
+  border-bottom: 4px solid lightsalmon;
 }
+    .item {
+           border-bottom: solid 2px #29526e;
+    border-top: solid 2px #29526e;
+    }
 
 @media only screen and (max-width: 600px) {
     .mitte {
@@ -52,8 +60,7 @@
     .links img {
         visibility: hidden;
     }
-
     .navigation {
    font-size: 1.2rem;
-}
+    }
 }
