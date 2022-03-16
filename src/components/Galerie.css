@@ -54,14 +54,14 @@ box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
     margin-top: 20vh;
     display: grid;
     gap: 1rem;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 20vh;
+    height: 50vh;
     object-fit: cover;
     border-radius: .2rem;
     -webkit-box-shadow: 21px 7px 37px -12px rgba(0,0,0,0.75);
