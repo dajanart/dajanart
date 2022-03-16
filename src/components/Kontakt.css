@@ -21,9 +21,9 @@ box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
     background-color: pink;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .container {
-        padding: 20vh 5% 5% 5%;
+        padding: 25vh 5% 5% 5%;
     }
 }
 

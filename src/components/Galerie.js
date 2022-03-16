@@ -13,6 +13,7 @@ import img12 from "../galerie/Zoe.jpg";
 import img13 from "../galerie/Panther.jpg";
 import img14 from "../galerie/Berg.jpg";
 import img15 from "../galerie/Souls.jpg";
+import img16 from "../galerie/Bee.jpg";
 
 import "./Galerie.css";
 
@@ -92,6 +93,11 @@ const Galerie = (props) => {
       titel: "Souls",
       src: img15,
       comments: "verkauft",
+    },
+    {
+      titel: "Bee",
+      src: img16,
+      comments: "400 €",
     },
   ];
 

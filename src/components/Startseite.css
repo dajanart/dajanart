@@ -16,9 +16,9 @@ box-shadow: 4px 2px 39px -18px rgba(130,109,130,1);
     padding: 5%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .startseite {
-        padding: 18vh 10vw 0 10vw;
+        padding: 22vh 10vw 0 10vw;
         width: 100vw;
         margin-left: 0;
     }
