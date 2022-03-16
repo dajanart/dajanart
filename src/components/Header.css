@@ -54,12 +54,24 @@
     }
 
 @media only screen and (max-width: 720px) {
-    .mitte {
+    .item {
         grid-template-columns: 1fr;
     }
     .links img {
         visibility: hidden;
     }
+
+    .mitte {
+        width: 100vw;
+    }
+
+    .rechts {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+
     .navigation {
    font-size: 1.2rem;
     }
