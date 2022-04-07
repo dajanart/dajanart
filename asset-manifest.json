@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dajanart/static/css/main.7c4795cc.css",
-    "main.js": "/dajanart/static/js/main.e0d04547.js",
+    "main.css": "/dajanart/static/css/main.8b050fa7.css",
+    "main.js": "/dajanart/static/js/main.986a2f0a.js",
     "static/media/deepWisdom.jpg": "/dajanart/static/media/deepWisdom.bbb84752b94c90a4c9ab.jpg",
     "static/media/Medusa.jpg": "/dajanart/static/media/Medusa.001c82f30e130aac50f3.jpg",
     "static/media/Treppe.jpg": "/dajanart/static/media/Treppe.eed271ab3527f3d5d331.jpg",
@@ -20,11 +20,11 @@
     "static/media/Souls.jpg": "/dajanart/static/media/Souls.5ab70c90015a84468121.jpg",
     "static/media/Panther.jpg": "/dajanart/static/media/Panther.d854392968e5bed37e65.jpg",
     "index.html": "/dajanart/index.html",
-    "main.7c4795cc.css.map": "/dajanart/static/css/main.7c4795cc.css.map",
-    "main.e0d04547.js.map": "/dajanart/static/js/main.e0d04547.js.map"
+    "main.8b050fa7.css.map": "/dajanart/static/css/main.8b050fa7.css.map",
+    "main.986a2f0a.js.map": "/dajanart/static/js/main.986a2f0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c4795cc.css",
-    "static/js/main.e0d04547.js"
+    "static/css/main.8b050fa7.css",
+    "static/js/main.986a2f0a.js"
   ]
 }
