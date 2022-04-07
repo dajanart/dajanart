@@ -15,102 +15,110 @@ import img14 from "../galerie/Berg.jpg";
 import img15 from "../galerie/Souls.jpg";
 import img16 from "../galerie/Bee.jpg";
 
+import React, { useState, useEffect } from "react";
+
 import "./Galerie.css";
 
-const Galerie = (props) => {
-  const werke = [
-    {
-      titel: "deep Wisdom",
-      src: img1,
-      comments: "1.000 €",
-    },
-    {
-      titel: "Exhale",
-      src: img2,
-      comments: "1.000 €",
-    },
-    {
-      titel: "First Forward",
-      src: img3,
-      comments: "1.000 €",
-    },
-    {
-      titel: "GoingOn",
-      src: img4,
-      comments: "weitermachen..",
-    },
-    {
-      titel: "Golden Lady",
-      src: img5,
-      comments: "1.500 €",
-    },
-    {
-      titel: "Panther",
-      src: img13,
-      comments: "500 €",
-    },
-    {
-      titel: "Medusa",
-      src: img7,
-      comments: "verkauft",
-    },
-    {
-      titel: "Mother",
-      src: img8,
-      comments: "1.000 €",
-    },
-    {
-      titel: "Pusteblume",
-      src: img9,
-      comments: "300 €",
-    },
-    {
-      titel: "Sonnenhitze",
-      src: img10,
-      comments: "300 €",
-    },
-    {
-      titel: "Treppe",
-      src: img11,
-      comments: "500 €",
-    },
-    {
-      titel: "Hannah",
-      src: img6,
-      comments: "unverkäuflich",
-    },
-    {
-      titel: "Zoe",
-      src: img12,
-      comments: "unverkäuflich",
-    },
-    {
-      titel: "Berg",
-      src: img14,
-      comments: "400 €",
-    },
-    {
-      titel: "Souls",
-      src: img15,
-      comments: "verkauft",
-    },
-    {
-      titel: "Bee",
-      src: img16,
-      comments: "400 €",
-    },
-  ];
+const werke = [
+  {
+    titel: "deep Wisdom",
+    src: img1,
+    comments: "1.000 €",
+  },
+  {
+    titel: "Exhale",
+    src: img2,
+    comments: "1.000 €",
+  },
+  {
+    titel: "First Forward",
+    src: img3,
+    comments: "1.000 €",
+  },
+  {
+    titel: "GoingOn",
+    src: img4,
+    comments: "weitermachen..",
+  },
+  {
+    titel: "Golden Lady",
+    src: img5,
+    comments: "1.500 €",
+  },
+  {
+    titel: "Panther",
+    src: img13,
+    comments: "500 €",
+  },
+  {
+    titel: "Medusa",
+    src: img7,
+    comments: "verkauft",
+  },
+  {
+    titel: "Mother",
+    src: img8,
+    comments: "1.000 €",
+  },
+  {
+    titel: "Pusteblume",
+    src: img9,
+    comments: "300 €",
+  },
+  {
+    titel: "Sonnenhitze",
+    src: img10,
+    comments: "300 €",
+  },
+  {
+    titel: "Treppe",
+    src: img11,
+    comments: "500 €",
+  },
+  {
+    titel: "Hannah",
+    src: img6,
+    comments: "unverkäuflich",
+  },
+  {
+    titel: "Zoe",
+    src: img12,
+    comments: "unverkäuflich",
+  },
+  {
+    titel: "Berg",
+    src: img14,
+    comments: "400 €",
+  },
+  {
+    titel: "Souls",
+    src: img15,
+    comments: "verkauft",
+  },
+  {
+    titel: "Bee",
+    src: img16,
+    comments: "400 €",
+  },
+];
+
+const Galerie = () => {
+  const [meineBilder, setBilder] = useState(werke);
+
+  useEffect(() => {
+    setBilder(meineBilder);
+  }, []);
 
   return (
     <div className="wrapper">
       <div className="inhalt">
-        {werke.map((bilder) => {
+        {werke.map((meineBilder) => {
           return (
-            <div key={bilder.titel}>
-              <h3>{bilder.titel}</h3>
-              <img src={bilder.src} alt="" />
+            <div key={meineBilder.titel}>
+              <h3>{meineBilder.titel}</h3>
+              <img src={meineBilder.src} alt="" />
               <br />
-              <h4>{bilder.comments}</h4>
+              <h4>{meineBilder.comments}</h4>
               <br />
             </div>
           );

@@ -1,4 +1,9 @@
 .header {
-    width: 100vw;
-    position: fixed;
+  width: 100vw;
+  height: 12vh;
+  position: fixed;
+}
+
+.content {
+  /* z-index: -1; */
 }

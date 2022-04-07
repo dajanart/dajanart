@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header className="header" />
-      <div>
+      <div className="content">
         <Switch>
           <Route path="/" exact>
             <Redirect to="/dajanart" />

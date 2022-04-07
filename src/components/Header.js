@@ -21,20 +21,14 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="item links">
-        <img className="logo" src={logo} alt="Medusa" />
-      </div>
-      <div className="item mitte">
-        {" "}
-        {REITER.map((item, index) => (
-          <h3 key={item.titel}>
-            <NavLink key={item.titel} className="navigation" to={item.pfad}>
-              {item.titel}
-            </NavLink>
-          </h3>
-        ))}
-      </div>
-      <div className="item rechts"></div>
+      {/* <img className="logo" src={logo} alt="Medusa" /> */}
+      {REITER.map((item, index) => (
+        <div key={item.titel}>
+          <NavLink key={item.titel} to={item.pfad}>
+            {item.titel}
+          </NavLink>
+        </div>
+      ))}
     </div>
   );
 };

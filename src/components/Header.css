@@ -1,78 +1,53 @@
-
 .header {
-    height: 9vh;
-    display: grid;
-    grid-template-columns: 2fr 4fr 2fr;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(
+    to right top,
+    #ff1493,
+    #d7117c,
+    #b00d66,
+    #8a0950,
+    #67063b
+  );
+  font-family: Ink Free;
+  font-weight: bold;
+  text-shadow: 0.7px 0.7px 0.7px #400808;
 }
-
+/* 
 .logo {
-    height: 7vh;
-    margin-top: 1vh;
-    border-radius: 50%;
-}
+  height: 7vh;
+  margin-top: 1vh;
+  border-radius: 50%;
+} */
 
-.links {
-    /* background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040); */
-    background-color: #FFDDEE;
-
-}
-
-.mitte {
-    /* background-image: linear-gradient(to right bottom, #f68989, #f07877, #e96665, #e15452, #d84040); */
-    background-color: #FFDDEE;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    text-align: center;
-}
-
-.rechts {
-    /* background-image: linear-gradient(to left bottom, #f68989, #f07877, #e96665, #e15452, #d84040); */
-    background-color: #FFDDEE;
-}
-
-
-.navigation {
-    font-size: 1.5rem;
-  font-family: Comic Sans MS;
-  /* font-weight: bold; */
-  /* font-family: Comic Sans MS; */
-  margin-right: 1rem;
-  color: #29526e;
+a {
   text-decoration: none;
+  color: #fff;
+}
+a:hover,
+a.active,
+a:active {
+  text-decoration: underline;
+  color: #fff;
 }
 
-.navigation:hover,
-.navigation:active,
-.navigation.active {
-    text-decoration: none;
-  border-bottom: 4px solid lightsalmon;
-}
-    .item {
-           border-bottom: solid 2px #F473B9;
-    border-top: solid 2px #F473B9;
-    }
+/* .header:hover,
+.header:active,
+.header.active {
+  text-decoration: none;
+  color: #cdcdcd;
+} */
+/* .items {
+  display: flex;
+  margin-right: 2rem;
+} */
 
 @media only screen and (max-width: 740px) {
-    .item {
-        grid-template-columns: 1fr;
-    }
-    .links img {
-        visibility: hidden;
-    }
-
-    .mitte {
-        width: 100vw;
-    }
-
-    .rechts {
-        display: none;
-    }
-    .links {
-        display: none;
-    }
-
-    .navigation {
-   font-size: 1.2rem;
-    }
+  .header {
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
